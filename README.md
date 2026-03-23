@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg?style=flat-square)](https://www.python.org/)
 
-> **Paper**: *"Joint Sensing, Communication, and Computation for Vertical Federated Edge Learning in Edge Perception Networks"* — Cao, Xiaowen and Wen, Dingzhu and Bi, Suzhi and **Cui, Yuanhao** and Zhu, Guangxu and Hu, Han and Eldar, Yonina C. — **arXiv:2512.03374 (2025)**
+> **Paper**: *"Joint Sensing, Communication, and Computation for Vertical Federated Edge Learning in Edge Perception Networks"* — Cao, Xiaowen and Wen, Dingzhu and Bi, Suzhi and **Cui, Yuanhao** and Zhu, Guangxu and Hu, Han and Eldar, Yonina C. — **TMC.2026.3674960**
 
 ---
 
