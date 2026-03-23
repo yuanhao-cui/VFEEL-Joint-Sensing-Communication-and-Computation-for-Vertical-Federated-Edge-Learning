@@ -1,0 +1,37 @@
+# Default experiment config for VFEEL paper reproduction
+
+experiment:
+  name: "vfeel_reproduction"
+  seed: 42
+
+system:
+  K: 3                      # number of edge devices
+  P_s_max: 1.0             # max sensing power (W)
+  P_t_max: 1.0             # max transmit power per device (W)
+  E_max: 1.0               # max energy budget per round (J)
+  T_max: 100e-3            # max latency per round (s)
+  sigma2_n: -100           # noise power (dBm)
+  sigma2_s: 1e-6           # sensing noise spectral density
+  gamma_s: 1e-3            # clutter noise factor
+  tau_s: 0.3               # sensing time fraction
+  f_c: 77e9                # carrier frequency (Hz)
+  B: 100e6                 # bandwidth (Hz)
+
+learning:
+  num_classes: 7           # human motion recognition (7 classes)
+  model_param_count: 2500000  # ResNet-10 proxy
+  lr: 0.01                 # learning rate
+  momentum: 0.9           # SGD momentum
+  init_accuracy: 0.15     # initial accuracy before training
+
+solver:
+  max_iterations: 20
+  tolerance: 1e-6
+
+figures:
+  num_rounds: 100
+  batch_sizes: [50, 100, 150, 200]
+  noise_powers_dbm: [-110, -100, -90, -80]
+  latency_constraints_ms: [50, 100, 150, 200]
+  energy_budgets: [0.5, 1.0, 2.0, 5.0]
+  max_power_values: [0.1, 0.5, 1.0, 2.0]

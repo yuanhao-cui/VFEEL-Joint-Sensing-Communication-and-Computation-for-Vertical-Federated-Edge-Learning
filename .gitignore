@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Test & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Virtual environments
+venv/
+env/
+env_openclaw/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+figures/*.png        # Keep figures/ except tracked ones
+figures/fig*test*   # Remove test/debug figures
+results/*.json      # Auto-generated results
+*.log
+
+# Node (if any)
+node_modules/
