@@ -1,6 +1,6 @@
 # VFEEL: Joint Sensing, Communication, and Computation for Vertical Federated Edge Learning
 
-[![arXiv](https://img.shields.io/badge/arXiv-2512.03374-red?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2512.03374)
+[![IEEE TMC](https://img.shields.io/badge/TMC-2026-blue?style=flat-square&logo=ieee)](https://doi.org/10.1109/TMC.2026.3674960)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg?style=flat-square)](https://www.python.org/)
 
@@ -171,11 +171,13 @@ Expected output: `30 passed in ~1s`
 If you use this reproduction in your research, please cite:
 
 ```bibtex
-@article{cao2025vfeel,
-  title={Joint Sensing, Communication, and Computation for Vertical Federated Edge Learning in Edge Perception Networks},
+@article{cao2026vfeel,
   author={Cao, Xiaowen and Wen, Dingzhu and Bi, Suzhi and Cui, Yuanhao and Zhu, Guangxu and Hu, Han and Eldar, Yonina C.},
-  journal={arXiv preprint arXiv:2512.03374},
-  year={2025}
+  journal={IEEE Transactions on Mobile Computing},
+  title={Joint Sensing, Communication, and Computation for Vertical Federated Edge Learning in Edge Perception Networks},
+  year={2026},
+  pages={1--14},
+  doi={10.1109/TMC.2026.3674960}
 }
 ```
 
