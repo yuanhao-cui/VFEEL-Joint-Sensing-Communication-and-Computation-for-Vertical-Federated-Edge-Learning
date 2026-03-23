@@ -10,7 +10,7 @@
 
 ## 📋 Overview
 
-This repository contains a **reproduction study** of the VFEEL paper, which proposes a framework that jointly optimizes sensing, communication, and computation resources for federated learning in ISAC-enabled edge perception networks. The reproduction validates the key trends and structural findings reported in the original paper.
+This repository contains a **reproduction study** of the VFEEL paper, which proposes a framework that jointly optimizes sensing, communication, and computation resources for federated learning in ISAC-enabled edge perception networks. The reproduction validates the key trends and structural findings reported in the original paper..
 
 **Key features:**
 
